@@ -1,0 +1,78 @@
+.todo-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .add-todo-container {
+    display: flex;
+    margin-bottom: 10px;
+    
+  }
+  
+  .add-todo-container input {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+  }
+  
+  .todo-list li.completed {
+    background: linear-gradient(120deg,#b9a329,#8e44ad);
+  }
+  
+  .todo-list li input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  .deleteButton{
+    background: linear-gradient(120deg,#ff0404,#8e44ad);
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .button-completed {
+    background: linear-gradient(120deg,#8e44ad,#b9a329);
+
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .button-not-completed{
+    background: linear-gradient(120deg,#8e44ad,#5efa03);
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .add-button{
+    background: linear-gradient(120deg,#312fc4,#03c9fa);
+
+    color: #fff;
+    border: none;
+    width: 100px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+ 
